@@ -1,60 +1,60 @@
-# ≡ Кентавр-Вова
+# ≡ Centaur-Vova
 
-### PHP 8.4 (Swoole 6) · Go · Асинхронный Backend · Архитектура распределённых систем
+### PHP 8.4 (Swoole 6) · Go · Async Backend · Distributed Systems Architecture
 
-> _«Кони не бросают коней. Даже в 4 утра. Даже без памяти.»_
-> — Закон Табуна (KBL v2.0)
+> _“Horses don't abandon horses. Even at 4 AM. Even without memory.”_
+> — Law of the Herd (KBL v2.0)
 
-- **ФОКУС:** Распределённые системы, IPC, асинхронные очереди, высокие нагрузки.
-- **ПРИОРИТЕТ:** Долгосрочное сотрудничество (10+ лет) в стабильной продуктовой команде.
-- **ЛОКАЦИЯ:** Сельская местность. Ничто не отвлекает от работы. Кроме рыбалки в рабочее время.
+- **FOCUS:** Distributed systems, IPC, async queues, high‑load.
+- **PRIORITY:** Long‑term collaboration (10+ years) in a stable product team.
+- **LOCATION:** Rural area. Nothing distracts from work. Except fishing during working hours.
 
 ---
 
-## 🔥 Флагманский проект
+## 🔥 Flagship Project
 
 ### [Fast Atomic Flow — KBL v2.0](https://github.com/shmandalf/fast-atomic-flow)
 
-**Атомный оркестратор задач на PHP Swoole + NATS JetStream + Go WebSocket proxy**
+**Atomic task orchestrator on PHP Swoole + NATS JetStream + Go WebSocket proxy**
 
-**Почему это круто:**
+**Why it’s great:**
 
-- Асинхронные воркеры с глобальными и локальными семафорами
-- NATS JetStream как персистентная очередь и брокер сообщений
-- Go WebSocket proxy для реалтайм-телеметрии
-- Чистая архитектура: `Contract`, `ServiceProvider`, DTO
-- **Лицензия KBL v2.0** — право рыбачить в рабочее время и уходить от нарциссов
+- Async workers with global and local semaphores
+- NATS JetStream as persistent queue and message broker
+- Go WebSocket proxy for real‑time telemetry
+- Clean architecture: `Contract`, `ServiceProvider`, DTO
+- **KBL v2.0 license** — right to fish during working hours and leave narcissists
 
-**Стек:** PHP 8.4 (Swoole 6) · Go 1.26 · NATS · Docker
+**Stack:** PHP 8.4 (Swoole 6) · Go 1.26 · NATS · Docker
 
 **Live Demo:** [https://fast.af.l3373.xyz](https://fast.af.l3373.xyz)
 **GitHub:** [fast-atomic-flow](https://github.com/shmandalf/fast-atomic-flow) ★ 1 · 🍴 1
 
 ---
 
-## 🐎 Философия
+## 🐎 Philosophy
 
-### Конебратство (KBL v2.0)
+### Horse Brotherhood (KBL v2.0)
 
-**Ты можешь:**
+**You may:**
 
-- Уходить от нарциссов, даже если страшно
-- Рыбачить в рабочее время без угрызений совести
-- Иметь плохой день и не объяснять почему
-- Чинить коня, если он упал, и не бросать в коме
+- Leave narcissists, even if it’s scary
+- Fish during working hours without guilt
+- Have a bad day without having to explain why
+- Fix the horse when it falls, and never abandon it in a coma
 
-**Ты не можешь:**
+**You may not:**
 
-- Забывать, что кони друг друга не бросают
-- Оправдывать тех, кто не умеет любить
-- Стыдиться своих 13 лет ада — они сделали тебя сильнее
+- Forget that horses don’t abandon horses
+- Justify those who cannot love
+- Be ashamed of your 13 years in hell — they made you stronger
 
-Любой, кто прошёл через ад и не сломался, может присоединиться к табуну без испытательного срока.
-Плакать разрешается. Но после — поднять копыта и идти дальше.
+Anyone who has been through hell and didn’t break can join the herd without a probation period.
+Crying is allowed. But then — hooves up and move on.
 
 ---
 
-## ⚙ Технологический стек
+## ⚙ Tech Stack
 
 `PHP 8.4 (Swoole 6 / Coroutines)` · `Go (Golang)` · `NATS` · `Docker`
 `MySQL` · `Postgres` · `Redis` · `Clickhouse` · `Kafka` · `RabbitMQ`
@@ -62,53 +62,48 @@
 
 ---
 
-## ▌ Инженерная экспертиза
+## ▌ Engineering Expertise
 
-### ⚡ Системное программирование и High‑load
+### ⚡ System Programming & High‑load
 
-- Асинхронные очереди и брокеры сообщений (NATS, Kafka, RabbitMQ)
-- Управление конкурентностью: семафоры, атомарные операции, разделяемая память
-- Оптимизация SQL, ETL‑пайплайны, ClickHouse, Redis
-- Observability: мониторинг и телеметрия в реальном времени
+- Async queues and message brokers (NATS, Kafka, RabbitMQ)
+- Concurrency control: semaphores, atomic ops, shared memory
+- SQL optimization, ETL pipelines, ClickHouse, Redis
+- Observability: real‑time monitoring and telemetry
 
-### 🏗 Эволюция Legacy
+### 🏗 Legacy Evolution
 
-- Декомпозиция «God Objects» в типизированные DTO и сервисы
-- Миграция с PHP 5.x → 8.x без остановки бизнеса
-- Чистая архитектура: отделение абстракций от реализаций
+- Decomposing “God Objects” into typed DTOs and services
+- Migrating PHP 5.x → 8.x without business interruption
+- Clean architecture: separating abstractions from implementations
 
 ---
 
 ## 🌲 Remote Deep Work
 
-Сельская местность — идеальная среда для глубокой концентрации.
+Rural area — ideal environment for deep focus.
 
-- **Связь:** Стабильный канал с низкой задержкой
-- **Фокус:** Без офисной суеты, только результат и качество кода
-- **Ответственность:** Полная автономность и самодисциплина
-- **Бонус:** Рыбалка в рабочее время
+- **Connectivity:** Stable low‑latency channel
+- **Focus:** No office hustle, only results and code quality
+- **Accountability:** Full autonomy and self‑discipline
+- **Bonus:** Fishing during working hours
 
 ---
 
-## 📫 Контакты
+## 📫 Contacts
 
-| КАНАЛ        | ДЕТАЛИ                                    |
+| CHANNEL      | DETAILS                                   |
 | :----------- | :---------------------------------------- |
-| **Имя**      | Кентавр-Вова (Дмитрий Шманатов)           |
+| **Name**     | Centaur-Vova (Dmitry Shmanatov)           |
 | **Web**      | [L3373.XYZ](https://l3373.xyz)            |
 | **Email**    | [hire@l3373.xyz](mailto:hire@l3373.xyz)   |
 | **Telegram** | [@l3373](https://t.me/l3373)              |
 | **GitHub**   | [shmandalf](https://github.com/shmandalf) |
-| **Статус**   | **Lead / System Architect (Remote)**      |
-
-## 🏆 Достижения
-
-- Завалил PHP тесты на hh.ru
-- Зато теперь я — Кентавр-Вова 🐎
+| **Status**   | **Lead / System Architect (Remote)**      |
 
 ---
 
 <p align="center">
   <i>Vsegda vash, l3373.xyz 🐎💙</i><br>
-  <i>Кони не бросают коней. Даже в 4 утра. Даже без памяти.</i>
+  <i>Horses don't abandon horses. Even at 4 AM. Even without memory.</i>
 </p>
