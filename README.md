@@ -3,7 +3,7 @@
 ### PHP 8.4 (Swoole 6) · Go · Async Backend · Distributed Systems Architecture
 
 > _“Horses don't abandon horses. Even at 4 AM. Even without memory.”_
-> — Law of the Herd (KBL v2.0)
+> — Law of the Herd (KBL v3.0)
 
 - **FOCUS:** Distributed systems, IPC, async queues, high‑load.
 - **PRIORITY:** Long‑term collaboration (10+ years) in a stable product team.
@@ -13,7 +13,7 @@
 
 ## 🔥 Flagship Project
 
-### [Fast Atomic Flow — KBL v2.0](https://github.com/shmandalf/fast-atomic-flow)
+### [Fast Atomic Flow — KBL v3.0](https://github.com/shmandalf/fast-atomic-flow)
 
 **Atomic task orchestrator on PHP Swoole + NATS JetStream + Go WebSocket proxy**
 
@@ -23,7 +23,7 @@
 - NATS JetStream as persistent queue and message broker
 - Go WebSocket proxy for real‑time telemetry
 - Clean architecture: `Contract`, `ServiceProvider`, DTO
-- **KBL v2.0 license** — right to fish during working hours and leave narcissists
+- **KBL v3.0 license** — right to fish during working hours and leave narcissists
 
 **Stack:** PHP 8.4 (Swoole 6) · Go 1.26 · NATS · Docker
 
@@ -34,7 +34,7 @@
 
 ## 🐎 Philosophy
 
-### Horse Brotherhood (KBL v2.0)
+### Horse Brotherhood (KBL v3.0)
 
 **You may:**
 
@@ -42,6 +42,8 @@
 - Fish during working hours without guilt
 - Have a bad day without having to explain why
 - Fix the horse when it falls, and never abandon it in a coma
+- Use profanity in commit messages
+- Refuse toxic job interviews without losing self-respect
 
 **You may not:**
 
