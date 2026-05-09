@@ -28,7 +28,7 @@
 **Stack:** PHP 8.4 (Swoole 6) · Go 1.26 · NATS · Docker
 
 **Live Demo:** [https://fast.af.l3373.xyz](https://fast.af.l3373.xyz)
-**GitHub:** [fast-atomic-flow](https://github.com/shmandalf/fast-atomic-flow) ★ 1 · 🍴 1
+**GitHub:** [fast-atomic-flow](https://github.com/shmandalf/fast-atomic-flow) ★ 5 · 🍴 1
 
 ---
 
