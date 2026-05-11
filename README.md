@@ -13,7 +13,7 @@
 
 ## 🔥 Flagship Project
 
-### [Fast Atomic Flow — KBL v3.0](https://github.com/shmandalf/fast-atomic-flow)
+### [Fast Atomic Flow — KBL v3.0](https://github.com/centaur-vova/fast-atomic-flow)
 
 **Atomic task orchestrator on PHP Swoole + NATS JetStream + Go WebSocket proxy**
 
@@ -28,7 +28,7 @@
 **Stack:** PHP 8.4 (Swoole 6) · Go 1.26 · NATS · Docker
 
 **Live Demo:** [https://fast.af.l3373.xyz](https://fast.af.l3373.xyz)
-**GitHub:** [fast-atomic-flow](https://github.com/shmandalf/fast-atomic-flow) ★ 5 · 🍴 1
+**GitHub:** [fast-atomic-flow](https://github.com/centaur-vova/fast-atomic-flow) ★ 5 · 🍴 1
 
 ---
 
