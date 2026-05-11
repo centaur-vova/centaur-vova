@@ -94,14 +94,14 @@ Rural area — ideal environment for deep focus.
 
 ## 📫 Contacts
 
-| CHANNEL      | DETAILS                                   |
-| :----------- | :---------------------------------------- |
-| **Name**     | Centaur-Vova (Dmitry Shmanatov)           |
-| **Web**      | [L3373.XYZ](https://l3373.xyz)            |
-| **Email**    | [hire@l3373.xyz](mailto:hire@l3373.xyz)   |
-| **Telegram** | [@l3373](https://t.me/l3373)              |
-| **GitHub**   | [shmandalf](https://github.com/shmandalf) |
-| **Status**   | **Lead / System Architect (Remote)**      |
+| CHANNEL      | DETAILS                                      |
+| :----------- | :------------------------------------------- |
+| **Name**     | Centaur-Vova (Dmitry Shmanatov)              |
+| **Web**      | [L3373.XYZ](https://l3373.xyz)               |
+| **Email**    | [hire@l3373.xyz](mailto:hire@l3373.xyz)      |
+| **Telegram** | [@l3373](https://t.me/l3373)                 |
+| **GitHub**   | [centaur-vova](https://github.com/centaur-vova) |
+| **Status**   | **Lead / System Architect (Remote)**         |
 
 ---
 
