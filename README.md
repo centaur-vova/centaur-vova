@@ -3,7 +3,7 @@
 ### PHP 8.4 (Swoole 6) · Go · Async Backend · Distributed Systems Architecture
 
 > _“Horses don't abandon horses. Even at 4 AM. Even without memory.”_
-> — Law of the Herd (KBL v3.0)
+> — Law of the Herd (KBL v4.0)
 
 - **FOCUS:** Distributed systems, IPC, async queues, high‑load.
 - **PRIORITY:** Long‑term collaboration (10+ years) in a stable product team.
@@ -13,7 +13,7 @@
 
 ## 🔥 Flagship Project
 
-### [Fast Atomic Flow — KBL v3.0](https://github.com/centaur-vova/fast-atomic-flow)
+### [Fast Atomic Flow — KBL v4.0](https://github.com/centaur-vova/fast-atomic-flow)
 
 **Atomic task orchestrator on PHP Swoole + NATS JetStream + Go WebSocket proxy**
 
@@ -22,8 +22,12 @@
 - Async workers with global and local semaphores
 - NATS JetStream as persistent queue and message broker
 - Go WebSocket proxy for real‑time telemetry
+- Binary WebSocket protocol — 9 bytes per message instead of hundreds
+- Load balancer with click-to-kill API instances (force unalive/revive)
+- Distributed semaphores via Redis + Lua scripts (255 slots, TTL)
 - Clean architecture: `Contract`, `ServiceProvider`, DTO
-- **KBL v3.0 license** — right to fish during working hours and leave narcissists
+- Distributed tracing with OpenTelemetry + Jaeger
+- **KBL v4.0 license** — right to fish during working hours
 
 **Stack:** PHP 8.4 (Swoole 6) · Go 1.26 · NATS · Docker
 
@@ -34,25 +38,21 @@
 
 ## 🐎 Philosophy
 
-### Horse Brotherhood (KBL v3.0)
+### Horse Brotherhood (KBL v4.0)
 
 **You may:**
 
-- Leave narcissists, even if it’s scary
 - Fish during working hours without guilt
 - Have a bad day without having to explain why
 - Fix the horse when it falls, and never abandon it in a coma
 - Use profanity in commit messages
-- Refuse toxic job interviews without losing self-respect
 
 **You may not:**
 
 - Forget that horses don’t abandon horses
-- Justify those who cannot love
-- Be ashamed of your 13 years in hell — they made you stronger
+- Give up after failures — the herd sticks together
 
-Anyone who has been through hell and didn’t break can join the herd without a probation period.
-Crying is allowed. But then — hooves up and move on.
+Falling is allowed. But then — hooves up and move on.
 
 ---
 
