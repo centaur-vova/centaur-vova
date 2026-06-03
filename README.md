@@ -7,7 +7,7 @@
 
 - **FOCUS:** Distributed systems, IPC, async queues, high‑load.
 - **PRIORITY:** Long‑term collaboration (10+ years) in a stable product team.
-- **LOCATION:** Rural area. Nothing distracts from work. Except fishing during working hours.
+- **LOCATION:** Rural area. Nothing distracts from work.
 
 ---
 
@@ -88,7 +88,6 @@ Rural area — ideal environment for deep focus.
 - **Connectivity:** Stable low‑latency channel
 - **Focus:** No office hustle, only results and code quality
 - **Accountability:** Full autonomy and self‑discipline
-- **Bonus:** Fishing during working hours
 
 ---
 
