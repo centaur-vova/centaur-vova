@@ -1,110 +1,71 @@
-# ≡ Centaur-Vova
+# Dmitry Shmanatov (Centaur-Vova)
 
-### PHP 8.4 (Swoole 6) · Go · Async Backend · Distributed Systems Architecture
+### Senior Backend Engineer · Distributed Systems · Go/PHP
 
-> _“Horses don't abandon horses. Even at 4 AM. Even without memory.”_
-> — Law of the Herd (KBL v4.0)
-
-- **FOCUS:** Distributed systems, IPC, async queues, high‑load.
-- **PRIORITY:** Long‑term collaboration (10+ years) in a stable product team.
-- **LOCATION:** Rural area. Nothing distracts from work.
+> 25+ years in development. Deep focus on architecture, concurrency, and high‑load systems.
 
 ---
 
-## 🔥 Flagship Project
+## Core Competencies
 
-### [Fast Atomic Flow — KBL v4.0](https://github.com/centaur-vova/fast-atomic-flow)
-
-**Atomic task orchestrator on PHP Swoole + NATS JetStream + Go WebSocket proxy**
-
-**Why it’s great:**
-
-- Async workers with global and local semaphores
-- NATS JetStream as persistent queue and message broker
-- Go WebSocket proxy for real‑time telemetry
-- Binary WebSocket protocol — 9 bytes per message instead of hundreds
-- Load balancer with click-to-kill API instances (force unalive/revive)
-- Distributed semaphores via Redis + Lua scripts (255 slots, TTL)
-- Clean architecture: `Contract`, `ServiceProvider`, DTO
-- Distributed tracing with OpenTelemetry + Jaeger
-- **KBL v4.0 license** — right to fish during working hours
-
-**Stack:** PHP 8.4 (Swoole 6) · Go 1.26 · NATS · Docker
-
-**Live Demo:** [https://fast.af.l3373.xyz](https://fast.af.l3373.xyz)
-**GitHub:** [fast-atomic-flow](https://github.com/centaur-vova/fast-atomic-flow) ★ 5 · 🍴 1
+- **Distributed Systems:** message brokers (NATS, Kafka, RabbitMQ), async processing, eventual consistency
+- **Concurrency Control:** semaphores, mutexes, atomic operations, shared memory
+- **High‑Load Optimization:** SQL tuning, caching strategies, memory profiling, ETL pipelines
+- **Legacy Evolution:** gradual migration from PHP 5.x to 8.x, decoupling monoliths
+- **Observability:** OpenTelemetry, Jaeger, custom metrics, WebSocket telemetry
+- **Clean Architecture:** DTO, DI containers, service providers, separation of concerns
 
 ---
 
-## 🐎 Philosophy
+## Flagship Project
 
-### Horse Brotherhood (KBL v4.0)
+### [Fast Atomic Flow](https://github.com/centaur-vova/fast-atomic-flow)
 
-**You may:**
+**Task orchestrator on PHP Swoole + NATS + Go WebSocket proxy**
 
-- Fish during working hours without guilt
-- Have a bad day without having to explain why
-- Fix the horse when it falls, and never abandon it in a coma
-- Use profanity in commit messages
+- Async workers with global/local semaphores
+- NATS JetStream as persistent queue
+- Go WebSocket proxy with binary protocol (9 bytes per message)
+- Custom load balancer with instance health checks
+- Distributed semaphores via Redis + Lua (255 slots, TTL)
+- OpenTelemetry + Jaeger for distributed tracing
 
-**You may not:**
-
-- Forget that horses don’t abandon horses
-- Give up after failures — the herd sticks together
-
-Falling is allowed. But then — hooves up and move on.
+**Stack:** PHP 8.4 (Swoole 6), Go 1.26, NATS, Redis, Docker
 
 ---
 
-## ⚙ Tech Stack
+## Technical Experience
 
-`PHP 8.4 (Swoole 6 / Coroutines)` · `Go (Golang)` · `NATS` · `Docker`
-`MySQL` · `Postgres` · `Redis` · `Clickhouse` · `Kafka` · `RabbitMQ`
-`Systemd` · `CI/CD` · `PHPUnit` · `Clean Architecture`
-
----
-
-## ▌ Engineering Expertise
-
-### ⚡ System Programming & High‑load
-
-- Async queues and message brokers (NATS, Kafka, RabbitMQ)
-- Concurrency control: semaphores, atomic ops, shared memory
-- SQL optimization, ETL pipelines, ClickHouse, Redis
-- Observability: real‑time monitoring and telemetry
-
-### 🏗 Legacy Evolution
-
-- Decomposing “God Objects” into typed DTOs and services
-- Migrating PHP 5.x → 8.x without business interruption
-- Clean architecture: separating abstractions from implementations
+| Area          | Technologies                          |
+| ------------- | ------------------------------------- |
+| Backend       | PHP 5.x → 8.x, Go, Python             |
+| Brokers       | NATS, Kafka, RabbitMQ                 |
+| Databases     | MySQL, PostgreSQL, ClickHouse, Redis  |
+| Architecture  | Clean Architecture, DDD, Event‑Driven |
+| Observability | OpenTelemetry, Jaeger, custom metrics |
+| DevOps        | Docker, Compose, Systemd, CI/CD       |
 
 ---
 
-## 🌲 Remote Deep Work
+## Work Style
 
-Rural area — ideal environment for deep focus.
-
-- **Connectivity:** Stable low‑latency channel
-- **Focus:** No office hustle, only results and code quality
-- **Accountability:** Full autonomy and self‑discipline
-
----
-
-## 📫 Contacts
-
-| CHANNEL      | DETAILS                                      |
-| :----------- | :------------------------------------------- |
-| **Name**     | Centaur-Vova (Dmitry Shmanatov)              |
-| **Web**      | [L3373.XYZ](https://l3373.xyz)               |
-| **Email**    | [hire@l3373.xyz](mailto:hire@l3373.xyz)      |
-| **Telegram** | [@l3373](https://t.me/l3373)                 |
-| **GitHub**   | [centaur-vova](https://github.com/centaur-vova) |
-| **Status**   | **Lead / System Architect (Remote)**         |
+- **Full autonomy:** self‑organized, result‑oriented
+- **Deep focus:** rural location, no distractions
+- **Long‑term commitment:** 10+ years stability preferred
+- **Remote only**
 
 ---
 
-<p align="center">
-  <i>Vsegda vash, l3373.xyz 🐎💙</i><br>
-  <i>Horses don't abandon horses. Even at 4 AM. Even without memory.</i>
-</p>
+## Contacts
+
+|              |                                 |
+| ------------ | ------------------------------- |
+| **Name**     | Dmitry Shmanatov                |
+| **Email**    | hire@l3373.xyz                  |
+| **Telegram** | https://t.me/l3373              |
+| **GitHub**   | https://github.com/centaur-vova |
+| **Location** | Russia (remote)                 |
+
+---
+
+> Available for **Lead / Senior Backend** positions. Focus on distributed systems and high‑load architecture.
