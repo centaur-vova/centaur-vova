@@ -33,11 +33,11 @@
 
 ---
 
-### 🚀 AI-Assisted (Fast Atomic Flow)
+### 🚀 AI-Assisted (FX)
 
 Когда задача — **сделать надёжно**, и важнее всего **производительность и контроль**, я пишу код **сам**. ИИ — только инструмент. Как компилятор. Как grep. Как молоток.
 
-**Fast Atomic Flow** — это оркестратор задач на **Go + PHP Swoole + NATS JetStream + Redis**.
+**FX** — это оркестратор задач на **Go + PHP Swoole + NATS JetStream + Redis**.
 
 - Асинхронные воркеры с глобальными и локальными семафорами
 - NATS JetStream как персистентная очередь
@@ -48,9 +48,9 @@
 
 **Производительность:** **171 000 msg/s** под пиковой нагрузкой, **10k+** одновременных WebSocket-соединений. Локальные семафоры через **Shared Memory** дают задержку **0.5 µs** на операцию. Крепкий рабочий код, который не падает под хайлоадом, пока вы пьёте кофе.
 
-**Живое демо:** [fast.af.l3373.xyz](https://fast.af.l3373.xyz/)
+**Живое демо:** [fx.trixter.xyz](https://fx.trixter.xyz/)
 
-**GitHub:** [github.com/centaur-vova/fast-atomic-flow](https://github.com/centaur-vova/fast-atomic-flow)
+**GitHub:** [github.com/centaur-vova/fx](https://github.com/centaur-vova/fx)
 
 **Стек:** PHP 8.4 (Swoole 6), Go 1.26, NATS, Redis, Docker.
 
