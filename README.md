@@ -1,71 +1,93 @@
-# Dmitry Shmanatov (Centaur-Vova)
+### Senior Backend Engineer · Распределённые системы · Go/PHP
 
-### Senior Backend Engineer · Distributed Systems · Go/PHP
-
-> 25+ years in development. Deep focus on architecture, concurrency, and high‑load systems.
+> 25+ лет в разработке. Глубокий фокус на архитектуру, конкурентность и высоконагруженные системы.
 
 ---
 
-## Core Competencies
+## Ключевые компетенции
 
-- **Distributed Systems:** message brokers (NATS, Kafka, RabbitMQ), async processing, eventual consistency
-- **Concurrency Control:** semaphores, mutexes, atomic operations, shared memory
-- **High‑Load Optimization:** SQL tuning, caching strategies, memory profiling, ETL pipelines
-- **Legacy Evolution:** gradual migration from PHP 5.x to 8.x, decoupling monoliths
-- **Observability:** OpenTelemetry, Jaeger, custom metrics, WebSocket telemetry
-- **Clean Architecture:** DTO, DI containers, service providers, separation of concerns
-
----
-
-## Flagship Project
-
-### [Fast Atomic Flow](https://github.com/centaur-vova/fast-atomic-flow)
-
-**Task orchestrator on PHP Swoole + NATS + Go WebSocket proxy**
-
-- Async workers with global/local semaphores
-- NATS JetStream as persistent queue
-- Go WebSocket proxy with binary protocol (9 bytes per message)
-- Custom load balancer with instance health checks
-- Distributed semaphores via Redis + Lua (255 slots, TTL)
-- OpenTelemetry + Jaeger for distributed tracing
-
-**Stack:** PHP 8.4 (Swoole 6), Go 1.26, NATS, Redis, Docker
+- **Распределённые системы:** брокеры сообщений (NATS, Kafka, RabbitMQ), асинхронная обработка, eventual consistency
+- **Управление конкурентностью:** семафоры, мьютексы, атомарные операции, разделяемая память
+- **Оптимизация высоких нагрузок:** тюнинг SQL, стратегии кеширования, профилирование памяти, ETL-пайплайны
+- **Эволюция легаси:** постепенная миграция с PHP 5.x на 8.x, распиливание монолитов
+- **Наблюдаемость:** OpenTelemetry, Jaeger, кастомные метрики, WebSocket-телеметрия
+- **Чистая архитектура:** DTO, DI-контейнеры, сервис-провайдеры, разделение ответственности
 
 ---
 
-## Technical Experience
+## Две парадигмы работы
 
-| Area          | Technologies                          |
-| ------------- | ------------------------------------- |
-| Backend       | PHP 5.x → 8.x, Go, Python             |
-| Brokers       | NATS, Kafka, RabbitMQ                 |
-| Databases     | MySQL, PostgreSQL, ClickHouse, Redis  |
-| Architecture  | Clean Architecture, DDD, Event‑Driven |
-| Observability | OpenTelemetry, Jaeger, custom metrics |
-| DevOps        | Docker, Compose, Systemd, CI/CD       |
+Я одинаково комфортно работаю в двух режимах — и в их комбинациях.
 
----
+### 🌌 AI-First (ГВБЛЯ v1.1) — хардкорный open-source проект (9 бесплатных заповедей, ещё одна где-то потерялась)
 
-## Work Style
+Когда задача — **создать новое**, и важнее всего **скорость и вайб**, я использую **ГВБЛЯ** — Генератор Великого Божественного Литургического Ядра.
 
-- **Full autonomy:** self‑organized, result‑oriented
-- **Deep focus:** rural location, no distractions
-- **Long‑term commitment:** 10+ years stability preferred
-- **Remote only**
+**ГВБЛЯ** — это Low-Code/No-Code инструмент для тех, кто хочет написать свою ОС с нуля, но не хочет тратить годы на чтение мануалов. Выбираешь обои, архитектуру, язык, планировщик — и получаешь **священный промпт**, который превращается в **initial commit** через **UEFI GOP**. Git — суета мирская. Makefile — грех смертный. Мамуля ждёт до обеда. Максимум 4 коммита.
+
+**Живое демо:** [trixter.xyz/projects/satire/gvblya/](https://trixter.xyz/projects/satire/gvblya)
+
+**GitHub:** [github.com/centaur-vova/trixter.xyz/tree/main/projects/satire/gvblya](https://github.com/centaur-vova/trixter.xyz/tree/main/projects/satire/gvblya)
+
+**Стек:** HTML, Alpine.js, Tailwind, DeepSeek, вера в божественное откровение.
 
 ---
 
-## Contacts
+### 🚀 AI-Assisted (Fast Atomic Flow)
+
+Когда задача — **сделать надёжно**, и важнее всего **производительность и контроль**, я пишу код **сам**. ИИ — только инструмент. Как компилятор. Как grep. Как молоток.
+
+**Fast Atomic Flow** — это оркестратор задач на **Go + PHP Swoole + NATS JetStream + Redis**.
+
+- Асинхронные воркеры с глобальными и локальными семафорами
+- NATS JetStream как персистентная очередь
+- Go WebSocket-прокси с бинарным протоколом (**9 байт на сообщение**)
+- Кастомный балансировщик с проверкой здоровья инстансов
+- Распределённые семафоры через **Redis + Lua** (255 слотов, TTL)
+- OpenTelemetry + Jaeger для распределённого трейсинга
+
+**Производительность:** **171 000 msg/s** под пиковой нагрузкой, **10k+** одновременных WebSocket-соединений. Локальные семафоры через **Shared Memory** дают задержку **0.5 µs** на операцию. Крепкий рабочий код, который не падает под хайлоадом, пока вы пьёте кофе.
+
+**Живое демо:** [fast.af.l3373.xyz](https://fast.af.l3373.xyz/)
+
+**GitHub:** [github.com/centaur-vova/fast-atomic-flow](https://github.com/centaur-vova/fast-atomic-flow)
+
+**Стек:** PHP 8.4 (Swoole 6), Go 1.26, NATS, Redis, Docker.
+
+---
+
+## Технический опыт
+
+| Область       | Технологии                               |
+| ------------- | ---------------------------------------- |
+| Backend       | PHP 5.x → 8.x, Go, Python                |
+| Брокеры       | NATS, Kafka, RabbitMQ                    |
+| Базы данных   | MySQL, PostgreSQL, ClickHouse, Redis     |
+| Архитектура   | Clean Architecture, DDD, Event-Driven    |
+| Наблюдаемость | OpenTelemetry, Jaeger, кастомные метрики |
+| DevOps        | Docker, Compose, Systemd, CI/CD          |
+
+---
+
+## Стиль работы
+
+- **Полная автономия:** самоорганизация, ориентация на результат
+- **Глубокий фокус:** жизнь в селе, никаких отвлечений
+- **Долгосрочные обязательства:** предпочитаю стабильность
+- **Только удалёнка**
+
+---
+
+## Контакты
 
 |              |                                 |
 | ------------ | ------------------------------- |
-| **Name**     | Dmitry Shmanatov                |
-| **Email**    | hire@l3373.xyz                  |
+| **Имя**      | Дмитрий Шманатов                |
+| **Email**    | dshmanatov@icloud.com           |
 | **Telegram** | https://t.me/l3373              |
 | **GitHub**   | https://github.com/centaur-vova |
-| **Location** | Russia (remote)                 |
+| **Локация**  | Россия (удалённо)               |
 
 ---
 
-> Available for **Lead / Senior Backend** positions. Focus on distributed systems and high‑load architecture.
+> Открыт для **Lead / Senior Backend** позиций. Фокус — распределённые системы и высоконагруженная архитектура.
