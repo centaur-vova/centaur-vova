@@ -83,7 +83,7 @@
 |              |                                 |
 | ------------ | ------------------------------- |
 | **Имя**      | Дмитрий Шманатов                |
-| **Email**    | aim@trixter.xyz                 |
+| **Email**    | iam@trixter.xyz                 |
 | **Telegram** | https://t.me/l3373              |
 | **GitHub**   | https://github.com/centaur-vova |
 | **Локация**  | Россия (удалённо)               |
